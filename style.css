@@ -18,4 +18,17 @@ section {
     align-items: center;
     min-height: 100vh;
     background:linear-gradient(-30deg, #03a9f4 0%, #3a78b7 50%, #262626 50%, #607d8b 100%);
-}   
+    /* filter: hue-rotate(120deg); */
+}    
+.box {
+    position: relative;
+    padding: 50px;
+    width: 360px;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255,255,255,.1);
+    border-radius: 6px;
+    box-shadow: 0 5px 35px rgba(0,0,0,.2);
+}
