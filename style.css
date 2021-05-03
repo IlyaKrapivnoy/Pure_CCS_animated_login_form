@@ -83,9 +83,18 @@ section {
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: transparent;
   padding: 8px 10px;
+  padding-left: 35px;
   border-radius: 6px;
   color: #fff;
   font-size: 16px;
   font-weight: 300;
   box-shadow: inset 0 0 25px rgba(9, 9, 9, 0.2);
+}
+
+.box .form .inputBx img {
+  position: absolute;
+  top: 11px;
+  left: 10px;
+  transform: scale(0.7);
+  filter: invert(1);
 }
